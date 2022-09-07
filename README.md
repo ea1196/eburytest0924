@@ -37,7 +37,7 @@ For this requirement please extend REQ 1.
 
 ## Constraints and Suggestions
 
-* Test coverage, comments, clean code, design patterns, separation of concepts and the use of standardized style guides will be highly appreciated.
+* Test coverage, comments, clean code, design patterns, separation of concerns and the use of standardized style guides will be highly appreciated.
 * A detailed Git history will be appreciated.
 * VFPs and Aura are not allowed, please use only LWC.
 
