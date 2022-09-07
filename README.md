@@ -8,7 +8,7 @@ The main view is the Ebury Trading application, which contains a Trade list view
 The initial value of both the “Sell Currency” & “Buy Currency” dropdowns should be empty, and when the user selects a value in both of them, the frontend app should retrieve the latest rate for the selected currency pair and display it. See REQ3 to know more about where rates are coming from.
 The “Buy Amount” should not be editable and instead be automatically calculated by multiplying the “Sell Amount” by the rate. The "Rate" should not be editable either.
 
-For this requirement please fill NewTradeController Apex class and the bookTrade LWC.
+For this requirement please fill NewTradeController Apex class and the newTrade LWC.
 
 
 **REQ2** - Send a notification after trade creation notifying all users in a queue named ‘Trade reviewers’. Content:
