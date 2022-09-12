@@ -13,17 +13,16 @@ For this requirement please fill NewTradeController Apex class and the newTrade 
 
 **REQ2** - Send a notification after trade creation notifying all users in a queue named ‘Trade reviewers’. Content:
 
-“A new trade has been created with the following data:
-Sell Currency: {sell ccy}
-Sell Amount: {sell amount}
-Buy Currency: {buy ccy}
-Buy Amount: {buy amount}
-Rate: {rate}
-Booked Date: {date}
+“A new trade has been created with the following data: <br>
+Sell Currency: {sell ccy} <br>
+Sell Amount: {sell amount} <br>
+Buy Currency: {buy ccy} <br>
+Buy Amount: {buy amount} <br>
+Rate: {rate} <br>
+Booked Date: {date} <br>
 Link to the trade: {trade link}"
 
 For this requirement please extend REQ 1.
-
 
 **REQ3** - As we don’t have a direct connection with a central rate provider, we will need to use an external service that can give us this information through an API. We have selected fixer.io for this. The application will connect to fixer.io to bring the latest currency rates available.
 
