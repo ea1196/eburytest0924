@@ -40,4 +40,9 @@ For this requirement please extend REQ 1.
 * A detailed Git history will be appreciated.
 * VFPs and Aura are not allowed, please use only LWC.
 
+Once you have finished, please create a git bundle to send back to us with this command:
+```
+$ git bundle create repo.bundle --all
+```
+
 # GOOD LUCK!
