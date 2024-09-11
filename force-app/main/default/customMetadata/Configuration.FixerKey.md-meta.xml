@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>FixerKey</label>
+    <protected>false</protected>
+    <values>
+        <field>Value__c</field>
+        <value xsi:type="xsd:string">de6e917b0b36581ea68d705bb1fcb7a1</value>
+    </values>
+</CustomMetadata>
