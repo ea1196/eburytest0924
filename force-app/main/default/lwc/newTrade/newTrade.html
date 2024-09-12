@@ -1,5 +1,67 @@
 <template>
-    <lightning-card class="slds-var-m-top_large">
-        TODO: New trade component
+    <lightning-card title="New Trade" icon-name="custom:custom63">
+        <div class="slds-p-around_medium">
+
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_1-of-3">
+            <lightning-combobox
+                label="Sell Currency"
+                value={sellCurrency}
+                placeholder="Select Sell Currency"
+                options={currencyOptions}
+                onchange={handleSellCurrencyChange}>
+            </lightning-combobox>
+                </div>
+                <div class="slds-col slds-size_1-of-3 slds-align_absolute-center">
+                    <span class="rate-value">Rate: {rate}</span>
+                </div>
+                <div class="slds-col slds-size_1-of-3">
+            <lightning-combobox
+                label="Buy Currency"
+                value={buyCurrency}
+                placeholder="Select Buy Currency"
+                options={currencyOptions}
+                onchange={handleBuyCurrencyChange}>
+            </lightning-combobox>
+                </div>
+            </div>
+
+            <div class="slds-grid slds-gutters slds-m-top_medium">
+                <div class="slds-col slds-size_1-of-2">
+                    <lightning-input 
+                        label="Sell Amount"
+                        type="number"
+                        value={sellAmount}
+                        step="0.01"
+                        onchange={handleSellAmountChange}>
+                    </lightning-input>
+
+                </div>
+                <div class="slds-col slds-size_1-of-2">
+            <lightning-input 
+                label="Buy Amount" 
+                value={buyAmount}
+                disabled>
+            </lightning-input>
+                </div>
+            </div>
+
+            <div class="slds-grid slds-gutters slds-m-top_large slds-m-bottom_large">
+                <div class="slds-col slds-size_1-of-2">
+            <lightning-button 
+                label="Create Trade" 
+                variant="brand" 
+                onclick={createTrade}>
+            </lightning-button>
+                </div>
+                <div class="slds-col slds-size_1-of-2 slds-text-align_right">
+                    <lightning-button 
+                        label="Cancel" 
+                        variant="neutral" 
+                        onclick={closePage}>
+                    </lightning-button>
+                </div>
+            </div>
+        </div>
     </lightning-card>
 </template>

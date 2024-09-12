@@ -7,4 +7,18 @@
         <shortDescription>FixerAccessKey</shortDescription>
         <value>FixerKey</value>
     </labels>
+    <labels>
+        <fullName>Queue</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Queue</shortDescription>
+        <value>Queue</value>
+    </labels>
+    <labels>
+        <fullName>Trade_Reviewers</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Trade Reviewers</shortDescription>
+        <value>Trade Reviewers</value>
+    </labels>
 </CustomLabels>
